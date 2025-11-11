@@ -13,7 +13,7 @@ function EditApplicant() {
 
   const fetchApplicantData = async () => {
     try {
-      const response = await fetch(`https://electricity-board-backend-zopl.onrender.com/api/update_applicant/${id}`);
+      const response = await fetch(`https://electricity-board-2z9b.onrender.com/api/update_applicant/${id}`);
       const data = await response.json();
       setApplicantData(data.applicant);
       setConnectionData(data.connection);
