@@ -13,7 +13,7 @@ function EditApplicant() {
 
   const fetchApplicantData = async () => {
     try {
-      const response = await fetch(`/api/update_applicant/${id}`);
+      const response = await fetch(`https://electricity-board-backend-zopl.onrender.com/api/update_applicant/${id}`);
       const data = await response.json();
       setApplicantData(data.applicant);
       setConnectionData(data.connection);
@@ -50,7 +50,7 @@ function EditApplicant() {
         },3000);
         return;
       }
-      await fetch(`/api/update_applicant/${id}`, {
+      await fetch(`https://electricity-board-backend-zopl.onrender.com/api/update_applicant/${id}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
