@@ -10,7 +10,7 @@ function LoginScreen() {
     e.preventDefault();
     // Add your login logic here, such as sending a request to your backend server
     try {
-        const response = await axios.post("https://electricity-board-backend-zopl.onrender.com/api/login/", {
+        const response = await axios.post("https://electricity-board-2z9b.onrender.com/api/login/", {
           username,
           password,
         });
