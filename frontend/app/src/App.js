@@ -1,13 +1,13 @@
 import React from 'react'
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 <<<<<<< HEAD
-import Home from './components/Screens/Home.jsx';
-import LoginScreen from './components/Screens/LoginScreen.jsx';
-import EditApplicant from './components/Screens/EditApplicant.jsx';
-import Stats from './components/Screens/Stats.jsx';
+import Home from './components/screens/Home.jsx';
+import LoginScreen from './components/screens/LoginScreen.jsx';
+import EditApplicant from './components/screens/EditApplicant.jsx';
+import Stats from './components/screens/Stats.jsx';
 =======
-import Home from './components/Screens/Home';
-import Header from './components/Screens/Header';
+import Home from './components/screens/Home';
+import Header from './components/screens/Header';
 >>>>>>> 3d31305 (Update frontend and remove README)
 
 function App() {
