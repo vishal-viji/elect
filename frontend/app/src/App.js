@@ -4,7 +4,7 @@ import Home from './components/screens/Home.jsx';
 import LoginScreen from './components/screens/LoginScreen.jsx';
 import EditApplicant from './components/screens/EditApplicant.jsx';
 import Stats from './components/screens/Stats.jsx';
-import Header from './components/screens/Header.jsx';
+import Header from './components/Header.jsx';
 
 
 function App() {
