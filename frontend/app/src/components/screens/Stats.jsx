@@ -19,7 +19,7 @@ function Stats() {
 
   const fetchData = async (status) => {
     try {
-      const url = `https://electricity-board-2z9b.onrender.com/api/connectionrequestdata?status=${status}`;
+      const url = `https://elect-backend-8xzh.onrender.com/api/connectionrequestdata?status=${status}`;
       const response = await fetch(url);
       const data = await response.json();
       setChartData(data);
